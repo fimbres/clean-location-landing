@@ -3,7 +3,7 @@ import "../styles/index.css";
 
 const IndexPage = () => {
   return (
-    <div>hola</div>
+    <div className="text-3xl text-red-500">hola</div>
   )
 }
 

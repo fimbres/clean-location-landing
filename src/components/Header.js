@@ -1,8 +1,9 @@
 import React from 'react'
+import Mapa from '../images/mapa.png'
 
 function Header() {
   return (
-    <div className='min-h-screen bg-stone-900'>
+    <div className='min-h-screen bg-stone-900 pt-24'>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 lg:gap-2 min-h-screen">
             <div className="p-4 flex justify-center content-center flex-wrap">
                 <div className="">
@@ -17,7 +18,7 @@ function Header() {
             </div>
             <div className="p-4 flex items-center justify-center">
                 <div className="mt-22 w-96 h-96 bg-green-400 rounded-full flex justify-center items-center">
-                    <h1>AAA</h1>
+                    <img className="w-52" src={Mapa}/>
                 </div>
             </div>
         </div>

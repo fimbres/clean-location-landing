@@ -8,7 +8,7 @@ function Header() {
             <div className="p-4 flex justify-center content-center flex-wrap">
                 <div className="">
                     <h1 className="w-full text-start text-white font-bold text-4xl">Find your next</h1>
-                    <h1 className="w-full text-start text-white font-bold text-4xl">Destination witouth</h1>
+                    <h1 className="w-full text-start text-white font-bold text-4xl">Destination without</h1>
                     <h1 className="w-full text-start text-white font-bold text-4xl">Pollution</h1>
                 </div>
                 <div className="w-full flex justify-center items-center mt-8">
